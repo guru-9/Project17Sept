@@ -33,6 +33,7 @@ public class TestBase {
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 //		 driver.get("https://www.saucedemo.com/");
+		 driver.manage().deleteAllCookies();
 		 driver.get(ReadData.readPropertyFile("url"));
 	 }
 	 
