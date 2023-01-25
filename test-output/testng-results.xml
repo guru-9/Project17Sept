@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-24T14:24:53 IST" name="Suite" finished-at="2023-01-24T14:25:15 IST" duration-ms="22208">
+    <groups>
+      <group name="Sanity">
+        <method signature="DependsOnTest.verifyTitleTest()[pri:0, instance:TestCases.DependsOnTest@3c7f66c4]" name="verifyTitleTest" class="TestCases.DependsOnTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="DependsOnTest.verifyTitleTest()[pri:0, instance:TestCases.DependsOnTest@3c7f66c4]" name="verifyTitleTest" class="TestCases.DependsOnTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-01-24T14:24:53 IST" name="Test" finished-at="2023-01-24T14:25:15 IST" duration-ms="22208">
+      <class name="TestCases.DependsOnTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.DependsOnTest@3c7f66c4]" started-at="2023-01-24T14:24:53 IST" name="setup" finished-at="2023-01-24T14:24:57 IST" duration-ms="3856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:0, instance:TestCases.DependsOnTest@3c7f66c4]" started-at="2023-01-24T14:24:57 IST" name="verifyTitleTest" finished-at="2023-01-24T14:24:59 IST" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.DependsOnTest@3c7f66c4]" started-at="2023-01-24T14:24:59 IST" name="closeBrowser" finished-at="2023-01-24T14:25:15 IST" duration-ms="16264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.DependsOnTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
